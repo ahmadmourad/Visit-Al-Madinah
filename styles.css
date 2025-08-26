@@ -1,3 +1,8 @@
+@font-face {
+    font-family: custom-font;
+    src: url("./CustomFont.ttf");
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -21,11 +26,12 @@ h1 h2 h3 h4 {
 }
 
 .hero-title{
-    font-size: 35pt;
-    padding: 5px 12px;
-    width: 400px;
+    font-family: custom-font, sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 20px 40px;
     background: #1D3557 ;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 .hero-h2 {
@@ -34,11 +40,11 @@ h1 h2 h3 h4 {
     padding: 15px 40px;
     margin-top: 1px;
     border-radius: 20px;
-    font-size: 23pt;
+    font-size: 1.9rem;
 }
 
 #activities-section{
-    height: 550px;
+    height: 600px;
     background: #F1FAEE;
     color: #1D3557;
     margin: 0;
@@ -47,8 +53,10 @@ h1 h2 h3 h4 {
 }
 
 .activities-title{
-    font-size: 30pt;
-    margin: 39 0px 54px 0 ;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 40px 0px 55px 0;
     
 }
 
@@ -59,16 +67,16 @@ h1 h2 h3 h4 {
 }
 
 .activity {
-    width: 250px;
-    height: 225px;
+    width: 300px;
+    height: 200px;
 }
 
 .semi-round-img {
     display: inline-block;
     border-radius: 20%;
     overflow: hidden;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
 }
 
 .activities-images {
@@ -78,16 +86,21 @@ h1 h2 h3 h4 {
 }
 
 .activities-h2 {
-    font-weight: 700;
-    font-size: 18pt;
-    margin: 22px 0 0 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 20px 0 0 0;
 }
 
 .activities-h3 {
+    font-family: custom-font, sans-serif;
     font-weight: 400;
-    margin: 17px 0 0 0;
+    margin: 15px 0 0 0;
+    line-height: 30px;
 }
 
+.bold {
+    font-weight: 600
+}
 
 #guide-section {
     width: 475px;
@@ -95,7 +108,7 @@ h1 h2 h3 h4 {
     color: #1D3557 ;
     background-color: #A8DADC;
     margin: 50px auto;
-    padding: 23px  13px; 
+    padding: 23px 20px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,22 +125,23 @@ h1 h2 h3 h4 {
 }
 
 .guide-text{
-    margin: 0 0 0 10px ;
+    margin: 0 0 0 20px ;
 }
 
 .guide-h3 {
-    font-weight: 700;
-    font-size: 28px ;
+    font-family: custom-font, sans-serif;
+    font-weight: 800;
+    font-size: 2rem ;
 }
 
 .guide-p {
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #guide-section h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
