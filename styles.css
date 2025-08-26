@@ -27,20 +27,23 @@ h1 h2 h3 h4 {
 }
 
 .hero-title {
+    color: whitesmoke;
     font-family: custom-font, sans-serif;
     font-weight: 900;
     font-size: 3rem;
     padding: 20px 40px;
-    background: #1D3557;
+    background: #154734;
+    border: 5px solid #CFAE70;
     border-radius: 40px;
 }
 
 .hero-h2 {
     width: 40%;
-    background: #457B9D;
+    background: #ccd5ae;
+    color: #283618;
     padding: 15px 40px;
     margin-top: 1px;
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 1.9rem;
     font-weight: 700;
 }
