@@ -40,6 +40,7 @@ h1 h2 h3 h4 {
 .hero-h2 {
     width: 40%;
     background: #ccd5ae;
+    /* background: #52796f; */
     color: #283618;
     padding: 15px 40px;
     margin-top: 1px;
